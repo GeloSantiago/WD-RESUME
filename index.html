@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            background-color: #282288;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+        }
+        .profile-pic {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .profile-pic img {
+            width: 100%;
+            height: auto;
+        }
+        .columns {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .column {
+            width: 30%;
+        }
+        .column h2 {
+            color: #333;
+            border-bottom: 2px solid #000000;
+            padding-bottom: 5px;
+        }
+        .column p, .column ul {
+            margin: 10px 0;
+            color: #555;
+        }
+        .column ul {
+            list-style: none;
+            padding: 0;
+        }
+        .column ul li {
+            background: #e4e4e4;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .contact-info {
+            background-color: #e4e4e4;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #282288;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Danrev Angelo P. Santiago</h1>
+            <p>First year Student | Designer | Programmer</p>
+            <div class="profile-pic">
+            </div>
+        </header>
+
+        <div class="columns">
+            <div class="column">
+                <h2>About Me</h2>
+                <p>I am a dedicated web developer skilled in HTML, CSS, and JavaScript. I have a passion for creating visually appealing and functional websites. I thrive in collaborative environments and am always eager to learn and adapt to new technologies. My goal is to blend creativity with technical expertise to deliver innovative solutions and exceptional user experiences.
+                </p>
+                <h2>Objective</h2>
+                <p>To immerse myself in a dynamic and challenging work environment where I can acquire valuable new skills that will enable me to work innovatively. I aim to refine and expand upon my existing knowledge and abilities, while contributing effectively to the organization's goals. By engaging in diverse projects and collaborating with a talented team, I seek to enhance my technical proficiency, problem-solving capabilities, and creative thinking, ultimately driving both personal and professional growth.
+                </p>
+            </div>
+            <div class="column">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>C++</li>
+                </ul>
+                <h2>Experience</h2>
+                <ul>
+                    <li>Web Developer at XYZ Corp</li>
+                    <li>Learning Frontend Developer</li>
+                    <li>Intern at Web Solutions</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h2>Education</h2>
+                <p>FEU TECH</p>
+                <p>Bachelor's in Computer Science</p>
+                <p>APEC Schools Marikina Heights</p>
+                <h2>Contact Info</h2>
+                <div class="contact-info">
+                    <p>Address: 110 Tandang Sora St Parang Marikina</p>
+                    <p>Phone: 09201321762</p>
+                    <p>Email: dangrevangelo@gmail.com</p>
+                    <p>Age: 19</p>
+                    <p>Sex: Male</p>
+                    <p>Citizenship: Filipino</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Gelo Santiago. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
